@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Javascript</title>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <div class="row mt-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <label for="nome-aluno" class="form-label">Insira o nome do aluno:</label>
+                <input id="nome-aluno" type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <label for="nota1" class="form-label">Insira a primeira nota:</label>
+                <input id="nota1" type="number" class="form-control" />
+            </div>
+            <div class="col">
+                <label for="nota2" class="form-label">Insira a segunda nota:</label>
+                <input id="nota2" type="number" class="form-control" />
+            </div>
+            <div class="col">
+                <label for="nota3" class="form-label">Insira a terceira nota:</label>
+                <input id="nota3" type="number" class="form-control" />
+            </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="d-grid col mx-auto">
+                <button type="button" class="btn btn-primary" onclick="calcularMedia()">Calcular</button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </main>
+        
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/4-javascript-exercicios/bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Calculadora de vendas</h1>
+    </header>
+    <main class="container">
+        <form class="col d-flex gap-4 flex-column" id="my-form">
+            <div class="row">
+                <div class="col">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="salario">Salário:</label>
+                    <input type="text" id="salario" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <label for="total-vendas">Número de vendas (R$)</label>
+                <input type="text" id="total-vendas" class="form-control">
+            </div>
+            <button id="btn-calcular" type="submit" class="btn btn-primary w-100">Calcular</button>
+        </form>
+        <p id="resultado" class="mt-4">Resultado</p>
+    </main>
+    <footer class="container">
+        <p>Desenvolvido por Gabriel</p>
+    </footer>
+    <script src="/4-javascript-exercicios/js/script1.js"></script>
+</body>
+</html>
